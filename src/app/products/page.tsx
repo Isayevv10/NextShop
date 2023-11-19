@@ -4,7 +4,6 @@ import Hero from "@src/features/Hero/Hero";
 import { client } from "@src/utils/sanity.client";
 import { groq } from "next-sanity";
 import { IProduct } from "@src/components/model";
-import { usePagination } from "@mantine/hooks";
 
 // const getAllProductsQueries = `
 //     *[_type == "product"] {
