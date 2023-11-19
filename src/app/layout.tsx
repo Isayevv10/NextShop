@@ -1,5 +1,4 @@
 "use client";
-import type { Metadata } from "next";
 
 import { CacheProvider } from "@chakra-ui/next-js";
 import { ChakraProvider } from "@chakra-ui/react";
@@ -8,10 +7,10 @@ import { Navbar } from "@src/components/Navbar/Navbar";
 import { Footer } from "@src/components/Footer/Footer";
 import { AppContextProvider } from "@src/context/AppContext";
 
-export const metadata: Metadata = {
-  title: "MS BUY",
-  description: "shopping",
-};
+// export const metadata: Metadata = {
+//   title: "MS BUY",
+//   description: "shopping",
+// };
 
 export default function RootLayout({
   children,
